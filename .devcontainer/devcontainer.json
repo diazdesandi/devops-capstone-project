@@ -3,7 +3,6 @@
     "name": "Python Dev",
     "dockerFile": "Dockerfile",
     "context": "..",
-    "remoteUser": "theia",
     "workspaceFolder": "/home/project",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/project,type=bind,consistency=delegated",
     "runArgs": ["-h","theia", "--name", "capstone-project"],
