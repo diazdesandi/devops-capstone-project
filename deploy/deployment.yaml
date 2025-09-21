@@ -36,7 +36,9 @@ spec:
                 name: postgresql
                 key: database-password
           - name: DATABASE_USER
-            valueFrom:
+            valueFrom:oc apply -f tekton/tasks.yaml
+
+
               secretKeyRef:
                 name: postgresql
                 key: database-user
